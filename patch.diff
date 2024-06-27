@@ -1,0 +1,21 @@
+diff -urP T6/dur.c T6_new/dur.c
+--- T6/dur.c	2024-06-27 14:47:28.576021022 +0900
++++ T6_new/dur.c	2024-06-27 14:44:01.446172803 +0900
+@@ -2,5 +2,5 @@
+ 
+ int dur(int a, int b)
+ {
+-    return a/b ;
++    return a/b;
+ }
+diff -urP T6/mul.c T6_new/mul.c
+--- T6/mul.c	2024-06-27 14:47:34.046017444 +0900
++++ T6_new/mul.c	2024-06-27 14:44:01.446172803 +0900
+@@ -2,5 +2,5 @@
+ 
+ int mul(int a, int b)
+ {
+-    return a*b ;
++    return a*b;
+ }
+Only in T6: patch.diff
